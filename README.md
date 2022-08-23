@@ -105,9 +105,23 @@
          </div> 
          <div class="columns4">
             <div class="column4">
-               <div class="map">
-                  <script type="text/javascript" charset="utf-8" async 
-                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f4f900bb08b987a6d439fb246fe57a18b28eb8a344e259398dfabc4c21212ae&amp;width=900&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+               <div class="map3">
+                  <div class="map30">
+                     <script class="ma" type="text/javascript" charset="utf-8" async 
+                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f4f900bb08b987a6d439fb246fe57a18b28eb8a344e259398dfabc4c21212ae&amp;padding=0;width=100&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                  </div>
+               </div>
+               <div class="map2">
+                  <div class="map20">
+                     <script class="ma" type="text/javascript" charset="utf-8" async 
+                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f4f900bb08b987a6d439fb246fe57a18b28eb8a344e259398dfabc4c21212ae&amp;padding=1;width=100&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+                  </div>
+               </div>
+               <div class="map1">
+                  <div class="map">
+                     <script class="map1" type="text/javascript" charset="utf-8" async 
+                     src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8f4f900bb08b987a6d439fb246fe57a18b28eb8a344e259398dfabc4c21212ae&amp;padding=0;width=700&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+                  </div>
                </div>
                <div class="welcome">
                   Станьте свидетелем рождения
