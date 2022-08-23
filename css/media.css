@@ -2,6 +2,18 @@
    .block1 {
       transform: rotate(180deg) translateY(-30px) translateX(100px);
    }
+   .map1 {
+      display: none;
+   }
+   .map3 {
+      display: block;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+   }
+   .map30 {
+      width: 150%;
+   }
 }
 
 @media(max-width: 1770px) {
@@ -41,6 +53,9 @@
    .columns_item .columns_text .c_text {
       font-size: 25px;
    }
+   .map30 {
+      width: 100%;
+   }
 }
 
 @media(max-width: 1426px) {
@@ -75,6 +90,9 @@
    .page4 .columns4 .column4 .welcome {
       font-size: 70px;
       line-height: 65px;
+   }
+   .map30 {
+      width: 80%;
    }
 }
 
@@ -134,7 +152,6 @@
       font-size: 20px;
    }
    .page4 .columns4 .column4 .map {
-      width: 80%;
       margin: 0 auto;
    }
    .page4 .columns4 .column4 .welcome {
@@ -236,7 +253,6 @@
       width: 600px;
    }
    .page4 .columns4 .column4 .map {
-      width: 70%;
       margin: 0 auto;
    }
    .page4 .columns4 .column4 .welcome {
@@ -283,6 +299,21 @@
    .page4 .columns4 .column4 .map {
       width: 50%;
       margin: 0 auto;
+   }
+   .map3 {
+      display: none;
+   }
+   .map1 {
+      display: none;
+   }
+   .map2 {
+      display: block;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+   }
+   .map20 {
+      width: 150%;
    }
    .page4 .columns4 .column4 .welcome {
       width: 400px;
@@ -338,6 +369,9 @@
    }
    .img3 {
       width: 350px;
+   }
+   .map20 {
+      width: 100%;
    }
 }
 
@@ -403,6 +437,9 @@
    .img3 {
       width: 300px;
    }
+   .map20 {
+      width: 80%;
+   }
 }
 
 @media(max-width: 460px) {
@@ -457,7 +494,6 @@
       width: 250px;
    }
    .page4 .columns4 .column4 .map {
-      width: 30%;
       margin: 0 auto;
    }
    .page4 .columns4 .column4 .welcome {
@@ -466,6 +502,9 @@
       line-height: 25px;
       transform: translateY(30px);
       padding: 0 0 30px 0;
+   }
+   .map20 {
+      width: 90%;
    }
 }
 
@@ -504,6 +543,9 @@
       line-height: 25px;
       transform: translateY(30px);
       padding: 0 0 30px 0;
+   }
+   .map20 {
+      width: 95%;
    }
 }
 
@@ -564,5 +606,8 @@
    }
    .columns_item .columns_text {
       max-width: 170px;
+   }
+   .map20 {
+      width: 80%;
    }
 }
