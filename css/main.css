@@ -1,0 +1,79 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+.center1 {
+  display: flex;
+  justify-content: space-between;
+}
+.center2 {
+  text-align: center;
+}
+.center3 {
+  display: flex;
+  justify-content: center;
+}
+.content3 {
+  padding: 0 150px;
+}
+.title3 {
+  text-align: center;
+  color: #6a1616;
+}
+.page3 {
+  background: #F0EAE4;
+}
+.columns_row {
+  width: 100%;
+}
+.columns_row > *:not(:last-child) {
+  margin: 0 0 80px 0;
+}
+.columns_item {
+  display: flex;
+  justify-content: space-between;
+}
+.columns_item .columns_text {
+  max-width: 585px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #6A1616;
+}
+.columns_item .columns_text .c_titlle {
+  font-size: 64px;
+  line-height: 81px;
+  margin: 0 0 18px 0;
+  text-align: center;
+}
+.columns_item .columns_text .c_text {
+  font-size: 34px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+.page4 {
+  background: #FFEEDE;
+}
+.page4 .title4 {
+  width: 870px;
+  text-align: center;
+  margin: 0 auto;
+}
+.page4 .columns4 {
+  margin: 105px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+.page4 .columns4 .column4 .map {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 150px 0;
+}
+.page4 .columns4 .column4 .welcome {
+  text-align: center;
+  width: 900px;
+  font-size: 84px;
+  line-height: 80px;
+  color: #6a1616;
+  letter-spacing: 0.05em;
+}
