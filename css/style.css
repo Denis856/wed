@@ -116,8 +116,6 @@ body {
 .page00 {
    padding: 110px 0 119px 0;
 }
-.center2 {
-}
 .block2, .block3 {
    width: 350px;
 }
@@ -150,7 +148,24 @@ body {
 .columns_img:hover {
    transform: scale(1.1);
 }
-.block3 {
+.map1 {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 50px 0;
+}
+
+.map2 {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 50px 0;
+   display: none;
+}
+
+.map3 {
+   display: flex;
+   justify-content: center;
+   margin: 0 0 50px 0;
+   display: none;
 }
 
 /* page2 end */
