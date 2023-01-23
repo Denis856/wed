@@ -1570,6 +1570,11 @@ body {
 }
 @media (max-width: 950px) {
   .page02__item {
+    margin: 0 20px 40px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .page02__item {
     margin: 0 0 40px 0;
   }
 }

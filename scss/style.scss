@@ -1147,6 +1147,9 @@ $wd4: 400px;
          margin: 0 0 40px 0;
       }
       @media(max-width: $wd2) {
+         margin: 0 20px 40px 20px;
+      }
+      @media(max-width: 600px) {
          margin: 0 0 40px 0;
       }
    }
