@@ -1563,6 +1563,7 @@ body {
 }
 .page02__item {
   margin: 0 30px 40px 0;
+  text-align: center;
 }
 .page02__item:last-child {
   margin: 0 0 40px 0;
