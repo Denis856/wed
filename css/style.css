@@ -1567,6 +1567,11 @@ body {
 .page02__item:last-child {
   margin: 0 0 40px 0;
 }
+@media (max-width: 950px) {
+  .page02__item {
+    margin: 0 0 40px 0;
+  }
+}
 
 .product__img {
   width: 50%;

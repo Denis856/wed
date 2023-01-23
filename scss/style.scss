@@ -1145,6 +1145,9 @@ $wd4: 400px;
       &:last-child {
          margin: 0 0 40px 0;
       }
+      @media(max-width: $wd2) {
+         margin: 0 0 40px 0;
+      }
    }
 }
 
