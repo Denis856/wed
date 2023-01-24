@@ -9,6 +9,28 @@
 </head>
 <body>
    <div class="wrapper">
+      <div class="page11"></div>
+      <form action="#" class="page11__form form10">
+         <span class="form10__krest"></span>
+         <p class="form5__title">Заказать обратный звонок</p>
+         <div class="form5__group">
+            <input type="text" class="form5__input" placeholder=" ">
+            <label class="form5__label">Имя</label>
+         </div>
+         <div class="form5__group">
+            <input type="email" class="form5__input" placeholder=" ">
+            <label class="form5__label">E-mail</label>
+         </div>
+         <div class="form5__group">
+            <input type="number" class="form5__input" placeholder=" ">
+            <label class="form5__label">Телефон</label>
+         </div>
+         <button type="reset" class="form5__btn">Заказать звонок</button>
+      </form>
+      <div class="page110">
+         <p class="form5__title">Отлично! Мы скоро вам перезвоним.</p>
+         <button class="page110__btn">Закрыть</button>
+      </div>
       <header class="header">
          <div class="container header__body">
             <a href="#" class="header__logo"><img src="img/logo.png" alt="icon"></a>
@@ -26,10 +48,10 @@
                   <a href="index5.html" class="menu__link">Контакты</a>
                </li>
             </ul>
-            <a href="tel:74958235412" class="header__tel">
+            <div class="header__tel">
                <i class="header__icon icon--"></i>
                <p class="header__tel_text">+7 (495) 823-54-12</p>
-            </a>
+            </div>
             <div class="header__basket">
                <img src="img/basket.png" alt="icon">
                <span>4</span>
@@ -40,8 +62,8 @@
       <main class="page">
          <div class="page1">
             <div class="page1__counts">
-               <div class="page1__count page1__count1"></div>
-               <div class="page1__count page1__count2 active"></div>
+               <div id="left" class="page1__count page1__count1"></div>
+               <div id="right" class="page1__count page1__count2 active"></div>
             </div>
             <div class="page1__bg"></div>
             <div class="page1__courusel container">
@@ -152,13 +174,17 @@
                <h3 class="page4__title title2">Команда мечты Womazing</h3>
                <div class="page4__body">
                   <div class="page4__block_img">
-                     <img src="img/arr2.png" alt="icon" class="page4__arr page4__arr1">
+                     <div id="left" class="page4__arr page4__arr1">
+                        <img src="img/arr2.png" alt="icon" class="page4__arr10">
+                     </div>
                      <div class="page4__bg">
                         <img src="img/img41.jpg" alt="icon" class="page4__img">
                         <img src="img/img42.jpg" alt="icon" class="page4__img">
                         <img src="img/img43.jpg" alt="icon" class="page4__img">
                      </div>
-                     <img src="img/arr2.png" alt="icon" class="page4__arr page4__arr2">
+                     <div id="right" class="page4__arr page4__arr2">
+                        <img src="img/arr2.png" alt="icon" class="page4__arr20">
+                     </div>
                   </div>
                   <div class="page4__block_text">
                      <h4 class="page4__title2">Для каждой</h4>
@@ -217,5 +243,6 @@
       </footer>
    </div>
    <script src="js/main.js"></script>
+   <script src="js/main3.js"></script>
 </body>
 </html>

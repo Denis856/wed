@@ -31,21 +31,23 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     });
 });
-const productContainers2 = [...document.querySelectorAll('.page4__bg')];
-const nxtBtn2 = [...document.querySelectorAll('.page4__arr1')];
-const preBtn2 = [...document.querySelectorAll('.page4__arr2')];
 
-productContainers2.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+// const productContainers2 = [...document.querySelectorAll('.page4__bg')];
+// const nxtBtn2 = [...document.querySelectorAll('.page4__arr1')];
+// const preBtn2 = [...document.querySelectorAll('.page4__arr2')];
 
-    nxtBtn2[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    });
-    preBtn2[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    });
-});
+// productContainers2.forEach((item, i) => {
+//     let containerDimensions = item.getBoundingClientRect();
+//     let containerWidth = containerDimensions.width;
+
+//     nxtBtn2[i].addEventListener('click', () => {
+//         item.scrollLeft += containerWidth;
+//     });
+//     preBtn2[i].addEventListener('click', () => {
+//         item.scrollLeft -= containerWidth;
+//     });
+// });
+
 
 // index3
 
@@ -66,13 +68,39 @@ color.forEach(item =>{
 });
 });
 
-var btn5 = document.querySelector('.form5__btn');
-var mess = document.querySelector('.page05__mess');
+// popup
 
-btn5.addEventListener('click', ()=>{
-   mess.classList.toggle('active');
+var icon0 = document.querySelector('.header__icon');
+var krest = document.querySelector('.form10__krest');
+var form10 = document.querySelector('.form10');
+var body = document.querySelector('body');
+var page11 = document.querySelector('.page11');
+var btn5 = document.querySelector('.form5__btn');
+var page110 = document.querySelector('.page110');
+var btn10 = document.querySelector('.page110__btn');
+
+icon0.addEventListener('click', ()=>{
+   form10.classList.add('active');
+   page11.classList.add('active');
+   body.classList.add('active');
 });
 
+krest.addEventListener('click', ()=>{
+   form10.classList.remove('active');
+   page11.classList.remove('active');
+   body.classList.remove('active');
+});
 
+btn5.addEventListener('click', ()=>{
+   form10.classList.remove('active');
+   page11.classList.add('active');
+   body.classList.remove('active');
+   page110.classList.add('active');
+});
+
+btn10.addEventListener('click', ()=>{
+   page110.classList.remove('active');
+   page11.classList.remove('active');
+});
 
 
